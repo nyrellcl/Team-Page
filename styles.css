@@ -5,9 +5,14 @@ body{
   background-color: #FAFAFA;
 }
 
+.main-container{
+  padding: 2rem 8rem;
+}
+
 .header-container{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 5rem;
 }
 
