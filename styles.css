@@ -36,3 +36,26 @@ body{
   font-size: 1.125rem;
   color: #000000;
 }
+
+/*fieldset*/
+
+.group-1-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+fieldset {
+  box-sizing: border-box;
+  border: transparent;
+  width: inherit;
+}
+
+fieldset:nth-of-type(1) {
+  transform: rotate(90deg);
+  background: content-box center/contain no-repeat url(./team-img/photo1.png);
+}
