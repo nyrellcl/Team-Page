@@ -144,6 +144,14 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
     padding: 0;
   }
   
+  .header-container{
+    flex-direction: column;
+  }
+  
+  .about-details{
+    width: 100%;
+  }
+  
   .group-container{
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
