@@ -139,3 +139,48 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
   font-size: 0.875rem;
 }
 
+@media only screen and (max-width: 500px){
+  .main-container{
+    padding: 0;
+  }
+  
+  .group-container{
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    margin: 0 2rem;
+  }
+  
+  .Bill{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.Skylah{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.Saba{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin-top: 15rem;
+}
+
+.Griff{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.Shae{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.Stan{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+}
+  
+  
+
