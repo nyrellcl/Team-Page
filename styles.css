@@ -57,5 +57,4 @@ fieldset {
 
 fieldset:nth-of-type(1) {
   transform: rotate(90deg);
-  background: content-box center/contain no-repeat url(./team-img/photo1.png);
 }
