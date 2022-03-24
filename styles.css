@@ -160,7 +160,7 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
   }
   
   legend.group-names{
-    height: 100px;
+    height: 400px;
   }
   
   .group-container{
