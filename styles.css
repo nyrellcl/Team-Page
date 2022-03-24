@@ -148,6 +148,7 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
   
   .header-container{
     flex-direction: column;
+    width: 100%;
   }
   
   .about-details{
