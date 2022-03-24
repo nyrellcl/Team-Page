@@ -59,6 +59,11 @@ fieldset {
 
 legend.group-names{
   transform: rotate(90deg);
+  height: 300px;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 
 fieldset:nth-of-type(1), fieldset:nth-of-type(3), fieldset:nth-of-type(5), fieldset:nth-of-type(7)  {
@@ -67,6 +72,7 @@ fieldset:nth-of-type(1), fieldset:nth-of-type(3), fieldset:nth-of-type(5), field
 
 fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), fieldset:nth-of-type(8){
   transform: rotate(270deg);
+  height: 50%;
 }
 
 .profile-imgs {
