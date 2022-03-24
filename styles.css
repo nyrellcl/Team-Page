@@ -106,11 +106,13 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
 .Saba{
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  margin-top: 15rem;
 }
 
 .Griff{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  margin-top: 15rem;
 }
 
 .Shae{
