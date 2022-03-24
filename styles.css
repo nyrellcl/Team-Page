@@ -158,6 +158,7 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
   .profile-imgs {
     transform: rotate(0deg);
     width: 100%;
+    height: auto;
   }
   
   legend.group-names{
