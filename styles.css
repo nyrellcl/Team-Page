@@ -13,7 +13,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 10rem;
 }
 
 .title{
@@ -161,7 +161,7 @@ fieldset:nth-of-type(2), fieldset:nth-of-type(4), fieldset:nth-of-type(6), field
   }
   
   legend.group-names{
-    height: 100px;
+    height: 200px;
     width: 100%;
   }
   
